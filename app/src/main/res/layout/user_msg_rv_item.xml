@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginVertical="8dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/chat_bubble_right"
+        android:backgroundTint="@color/colorSuccess"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/cabin_bold"
+            android:gravity="end"
+            android:paddingHorizontal="3dp"
+            android:text="YOU"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/idTVuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="end"
+            android:padding="3dp"
+            android:text="User Message"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
